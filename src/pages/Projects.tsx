@@ -12,8 +12,8 @@ const projects = [
   stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
   description: "Full-stack social media application with authentication, post creation, likes, comments, and real-time interaction features.",
   architecture: "MVC-based backend with REST APIs, JWT authentication, role-based access control, and MongoDB schema design for scalable post and user relationships.",
-  github: "https://github.com",
-  demo: "#",
+  github: "https://github.com/Gowri7989009215/msm_frontend.git",
+  demo: "https://msm-frontend.vercel.app/",
 },
 {
   title: "Invigilation Management System",
@@ -30,8 +30,8 @@ const projects = [
   stack: ["HTML", "CSS", "JavaScript"],
   description: "Futuristic, high-performance personal portfolio showcasing projects, architecture thinking, certifications, and technical expertise.",
   architecture: "Component-based layout with modular sections, optimized animation pipeline, intersection observer for scroll-triggered effects, and responsive design principles.",
-  github: "https://github.com",
-  demo: "#",
+  github: "https://github.com/Gowri7989009215/invigilation-management-system.git",
+  demo: "https://ims-jntua.infinityfreeapp.com/",
 },
 {
   title: "AI News Aggregator (RSS Based)",
@@ -39,8 +39,8 @@ const projects = [
   stack: ["Node.js", "Python", "RSS Parser", "MongoDB", "Email API"],
   description: "Automated AI-focused news aggregation system that collects articles via RSS feeds, filters content, and sends curated summaries via email.",
   architecture: "Event-driven pipeline with RSS ingestion service, content processing layer, database storage, and scheduled email distribution module.",
-  github: "https://github.com",
-  demo: "#",
+  github: "https://github.com/Gowri7989009215/AI-News-Aggregator-by-RSS.git",
+  demo: "https://ai-news-aggregator-khaki.vercel.app/",
 },
 {
   title: "Electronic Health Record System (Blockchain-Based)",
@@ -48,17 +48,8 @@ const projects = [
   stack: ["Node.js", "Express", "Blockchain", "MongoDB", "Smart Contracts"],
   description: "Secure digital health record management system leveraging blockchain for tamper-proof medical data storage and controlled access.",
   architecture: "Hybrid architecture with off-chain database storage and on-chain hash verification using smart contracts for data integrity and decentralized trust.",
-  github: "https://github.com",
-  demo: "#",
-},
-{
-  title: "Multiplayer Game Platform",
-  category: "System",
-  stack: ["JavaScript", "WebSockets", "Node.js", "MongoDB"],
-  description: "Real-time multiplayer web gaming platform supporting user sessions, matchmaking, and synchronized gameplay.",
-  architecture: "Event-driven WebSocket architecture with real-time state synchronization, session management, and scalable backend event handling.",
-  github: "https://github.com",
-  demo: "#",
+  github: "https://github.com/Gowri7989009215/Electronic_Health_Records.git",
+  demo: "https://ehrf-ff.vercel.app/",
 },
 {
   title: "Real-Time Chat Application",
@@ -66,8 +57,26 @@ const projects = [
   stack: ["Node.js", "Express", "WebSockets", "MongoDB", "JWT"],
   description: "Secure real-time chat application with authentication, chat rooms, message persistence, and live message broadcasting.",
   architecture: "WebSocket-based bidirectional communication layer, token-based authentication, modular REST APIs for user management, and persistent message storage.",
-  github: "https://github.com",
+  github: "https://github.com/Gowri7989009215/chat_application.git",
   demo: "#",
+},
+  {
+  title: "AI Interview Assistant",
+  category: "AI",
+  stack: ["React", "Node.js", "Express", "OpenAI API", "Speech Recognition"],
+  description: "An AI-powered mock interview platform that simulates real interview scenarios, asks technical questions, and provides intelligent feedback on user responses.",
+  architecture: "React frontend provides the interactive interview interface while the Node.js/Express backend processes AI prompts and evaluates responses using AI models. Speech recognition converts voice responses to text for analysis.",
+  github: "https://github.com/Gowri7989009215/ai_interview_frontend",
+  demo: "https://ai-interview-frontend-ruddy.vercel.app/"
+},
+  {
+  title: "AI Resume Analyzer",
+  category: "AI",
+  stack: ["React", "Node.js", "Express", "OpenAI API", "NLP"],
+  description: "An AI-powered resume analysis tool that evaluates resumes against job descriptions and provides insights, skill matching, and improvement suggestions to help candidates optimize their resumes.",
+  architecture: "React frontend allows users to upload resumes and job descriptions, while the Node.js/Express backend processes the data using NLP and AI models to extract skills, analyze content, and generate feedback.",
+  github: "https://github.com/Gowri7989009215/ai-resume-analyzer",
+  demo: "https://your-demo-url.com"
 },
 ];
 
