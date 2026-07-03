@@ -22,7 +22,7 @@ const projects = [
   description: "Comprehensive exam management system handling timetable generation, dynamic room allocation, faculty scheduling, and seating arrangements.",
   architecture: "Modular backend architecture with branch-wise student allocation logic, normalized relational database design, and dynamic timetable generation algorithms.",
   github: "https://github.com",
-  demo: "#",
+  demo: "http://ims-jntua.infinityfreeapp.com/",
 },
 {
   title: "Personal Portfolio Website",
@@ -31,7 +31,7 @@ const projects = [
   description: "Futuristic, high-performance personal portfolio showcasing projects, architecture thinking, certifications, and technical expertise.",
   architecture: "Component-based layout with modular sections, optimized animation pipeline, intersection observer for scroll-triggered effects, and responsive design principles.",
   github: "https://github.com/Gowri7989009215/invigilation-management-system.git",
-  demo: "https://ims-jntua.infinityfreeapp.com/",
+  demo: "https://portfolio-new-five-henna.vercel.app/",
 },
 {
   title: "AI News Aggregator (RSS Based)",
@@ -51,15 +51,6 @@ const projects = [
   github: "https://github.com/Gowri7989009215/Electronic_Health_Records.git",
   demo: "https://ehrf-ff.vercel.app/",
 },
-{
-  title: "Real-Time Chat Application",
-  category: "Web",
-  stack: ["Node.js", "Express", "WebSockets", "MongoDB", "JWT"],
-  description: "Secure real-time chat application with authentication, chat rooms, message persistence, and live message broadcasting.",
-  architecture: "WebSocket-based bidirectional communication layer, token-based authentication, modular REST APIs for user management, and persistent message storage.",
-  github: "https://github.com/Gowri7989009215/chat_application.git",
-  demo: "#",
-},
   {
   title: "AI Interview Assistant",
   category: "AI",
@@ -76,8 +67,29 @@ const projects = [
   description: "An AI-powered resume analysis tool that evaluates resumes against job descriptions and provides insights, skill matching, and improvement suggestions to help candidates optimize their resumes.",
   architecture: "React frontend allows users to upload resumes and job descriptions, while the Node.js/Express backend processes the data using NLP and AI models to extract skills, analyze content, and generate feedback.",
   github: "https://github.com/Gowri7989009215/ai-resume-analyzer",
-  demo: "https://your-demo-url.com"
+  demo: "https://vercel.com/chintha-gowri-shankars-projects/portfolio-new"
 },
+  {
+  title: "Video Notes AI",
+  category: "AI",
+  stack: [
+    "React",
+    "Node.js",
+    "Express",
+    "Supabase",
+    "Google Gemini API",
+    "YouTube API"
+  ],
+  description:
+    "AI-powered video note generation platform that extracts transcripts from YouTube videos and generates structured notes, summaries, key points, timestamps, and interview-ready content.",
+
+  architecture:
+    "Built with a React frontend and Node.js/Express backend following a modular architecture. The backend processes YouTube videos, extracts transcripts, leverages Gemini AI for note generation, stores user data in Supabase, and exposes secure REST APIs. The system supports authentication, note history, and scalable AI-powered content generation.",
+
+  github: "https://github.com/Gowri7989009215/videonotes_ai_frontend",
+  demo: "https://videonotes-ai-frontend.vercel.app/"
+},
+  
 ];
 
 const Projects = () => {
