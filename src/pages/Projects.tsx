@@ -40,7 +40,7 @@ const projects = [
   description: "Automated AI-focused news aggregation system that collects articles via RSS feeds, filters content, and sends curated summaries via email.",
   architecture: "Event-driven pipeline with RSS ingestion service, content processing layer, database storage, and scheduled email distribution module.",
   github: "https://github.com/Gowri7989009215/AI-News-Aggregator-by-RSS.git",
-  demo: "https://ai-news-aggregator-khaki.vercel.app/",
+  demo: "https://ai-news-aggregator-rss.vercel.app/",
 },
 {
   title: "Electronic Health Record System (Blockchain-Based)",
